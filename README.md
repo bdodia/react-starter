@@ -2,9 +2,14 @@
 
 Basic react app
 
+# Initialise project
+
+- Clone the project
+- Run <code>npm run install</code>
+
 # live-server
 
-Install and run live-server from the base directory using
+Install live-server. Then run from the base directory using
 
 <code>live-server public</code>
 
