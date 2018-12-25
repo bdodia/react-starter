@@ -1,5 +1,9 @@
 let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Cream", "Brown"];
 
+const ColourSwatch = () => {
+  return <div>Colour swatch goes here</div>;
+};
+
 class ColourSwitch extends React.Component {
   constructor(props) {
     super(props);
@@ -25,6 +29,7 @@ class ColourSwitch extends React.Component {
   render() {
     return (
       <div>
+        <ColourSwatch />
         some {this.state.colourIndex}
         <button onClick={this.getRandomIndex}>Switch Colour </button>
         <p />
