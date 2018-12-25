@@ -30,10 +30,11 @@ class ColourSwitch extends React.Component {
     return (
       <div>
         <ColourSwatch />
-        some {this.state.colourIndex}
         <button onClick={this.getRandomIndex}>Switch Colour </button>
-        <p />
-        {this.getColour(this.state.colourIndex)}
+        <p>
+          Colour selected: {this.state.colourIndex} :{" "}
+          {this.getColour(this.state.colourIndex)}
+        </p>
       </div>
     );
   }
