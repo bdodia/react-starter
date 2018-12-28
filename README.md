@@ -9,12 +9,16 @@ Basic react app
 
 # live-server
 
-Install live-server. Then run from the base directory using
+Either
 
-<code>live-server public</code>
+<code>yarn serve</code> or
+<code>npm run serve</code>
 
 # hot reload
 
-Run the following command from the base directory to run hot reload
+Run the following command from the base directory to run hot build reload
 
-<code>babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch</code>
+Either
+
+<code>yarn build</code> or
+<code>npm run build</code>
