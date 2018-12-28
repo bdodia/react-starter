@@ -4,7 +4,12 @@ import ReactDOM from "react-dom";
 let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Cream", "Brown"];
 
 const ColourSwatch = () => {
-  return <div>Colour swatch goes here</div>;
+  return (
+    <div>
+      <p>React project using webpack and babel set-up</p>
+      <p>Colour swatch goes here</p>
+    </div>
+  );
 };
 
 class ColourSwitch extends React.Component {
