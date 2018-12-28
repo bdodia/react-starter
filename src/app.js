@@ -1,18 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./colourSwatch";
+import { ColourSwatch } from "./colourSwatch";
 import "./colourSwitch";
 
 let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Cream", "Brown"];
-
-const ColourSwatch = () => {
-  return (
-    <div>
-      <p>React project using webpack and babel set-up</p>
-      <p>Colour swatch goes here</p>
-    </div>
-  );
-};
 
 class ColourSwitch extends React.Component {
   constructor(props) {

@@ -1,3 +1,12 @@
-console.log("from CS");
+import React from "react";
 
-export {};
+const ColourSwatch = () => {
+  return (
+    <div>
+      <p>React project using webpack and babel set-up!!!</p>
+      <p>Colour swatch goes here</p>
+    </div>
+  );
+};
+
+export { ColourSwatch };
