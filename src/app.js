@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Cream", "Brown"];
 
 const ColourSwatch = () => {
