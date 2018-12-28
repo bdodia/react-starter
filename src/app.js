@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./colourSwatch";
+import "./colourSwitch";
 
 let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Cream", "Brown"];
 
