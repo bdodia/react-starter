@@ -7,18 +7,9 @@ Basic react app
 - Clone the project
 - Run <code>npm run install</code>
 
-# live-server
+# webpack-dev-server
 
 Either
 
-<code>yarn serve</code> or
-<code>npm run serve</code>
-
-# hot reload
-
-Run the following command from the base directory to run hot build reload
-
-Either
-
-<code>yarn build</code> or
-<code>npm run build</code>
+<code>yarn run start-dev</code> or
+<code>npm run start-dev</code>
