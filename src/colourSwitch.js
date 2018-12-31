@@ -14,6 +14,7 @@ class ColourSwitch extends React.Component {
   }
 
   getColour(index) {
+    console.log("testing");
     return colourRange[index];
   }
 
