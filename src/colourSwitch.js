@@ -31,7 +31,7 @@ class ColourSwitch extends React.Component {
         <ColourSwatch />
         <button onClick={this.getRandomIndex}>Switch Colour </button>
         <p>
-          Colour selected: {this.state.colourIndex} :{" "}
+          Colour selected: {this.state.colourIndex + 1} :{" "}
           {this.getColour(this.state.colourIndex)}
         </p>
       </div>

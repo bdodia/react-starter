@@ -2,26 +2,26 @@ import React from "react";
 
 let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Cream", "Brown"];
 
+const Colour = props => {
+  return <span key={props.colourCode}> {props.colourCode} </span>;
+};
+
+const renderColourBar = colourRange => {
+  if (colourRange.length > 0) {
+    return colourRange.map((colourValue, index) => (
+      <Colour key={index} colourCode={colourValue} />
+    ));
+  } else return [];
+};
+
 class ColourSwatch extends React.Component {
-  constructor(props) {
-    super(props);
-    this.colourBar = this.colourBar.bind(this);
-  }
-
-  colourBar() {
-    let colourBarHTML = "";
-    colourRange.forEach(c => {
-      colourBarHTML = colourBarHTML + "<div>" + c + "</div>";
-    });
-    return colourBarHTML;
-  }
-
   render() {
+    const coloursBar = renderColourBar(colourRange);
+
     return (
       <div>
         <h1>React project using webpack and babel set-up</h1>
-        <p>Colour swatch goes here</p>
-        {this.colourBar()}
+        {coloursBar}
       </div>
     );
   }
