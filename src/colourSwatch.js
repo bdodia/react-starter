@@ -1,9 +1,15 @@
 import React from "react";
 
-let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Cream", "Brown"];
+let colourRange = ["blue", "red", "green", "pink", "purple", "orange", "brown"];
 
+<div class="foo blue" />;
 const Colour = props => {
-  return <span key={props.colourCode}> {props.colourCode} </span>;
+  return (
+    <span
+      className={`colourSquare ${props.colourCode}`}
+      key={props.colourCode}
+    />
+  );
 };
 
 const renderColourBar = colourRange => {

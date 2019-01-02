@@ -1,7 +1,7 @@
 import React from "react";
 import { ColourSwatch } from "./ColourSwatch";
 
-let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Cream", "Brown"];
+let colourRange = ["Blue", "Red", "Green", "Pink", "Purple", "Orange", "Brown"];
 
 class ColourSwitch extends React.Component {
   constructor(props) {
